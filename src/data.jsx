@@ -1,15 +1,24 @@
 import { IoCallOutline,IoLocationOutline } from "react-icons/io5";
-import { MdOutlineAlternateEmail } from "react-icons/md";
-import { FaYoutube,FaInstagram,FaDrawPolygon } from "react-icons/fa";
+import { RiMenu3Fill } from 'react-icons/ri';
+
+import { 
+  MdOutlineAlternateEmail, 
+  MdOutlineAppShortcut, 
+  MdOutlineManageAccounts, 
+  MdThumbUpOffAlt 
+} 
+from "react-icons/md";
+
+import { FaYoutube,FaInstagram,FaDrawPolygon, FaCode, FaLaptopCode, FaMobileAlt, FaTasks, FaBullhorn, FaDatabase, FaChartLine  } from "react-icons/fa";
 import { CiLinkedin ,CiFacebook} from "react-icons/ci";
 import { SiBlueprint,SiHomeassistantcommunitystore  } from "react-icons/si";
 import { AiOutlineFileProtect } from "react-icons/ai";
-import { IoConstructSharp } from "react-icons/io5";
+
 import { GrUserManager } from "react-icons/gr";
-import { profile2, profile3,profile4,profile5,
-         member1, member2, member3, member4,building_5,building_6,
-         building_7, building_8,building_9,building_10,
+import { 
+         Mohana, pavithra, Suma, Venkatesh,
         blog_1,blog_2,blog_3} from "./assets";
+        
 
 export const navTabs = [
     {name:"Home",id:'header'},
@@ -23,168 +32,128 @@ export const navTabs = [
 
 export const services = [
   {
-    name:"General Contracting",
-    icon:<SiBlueprint/>,
-    description:`This involves overseeing the entire construction project from start to finish, 
-        including hiring subcontractors, managing the budget, scheduling, and ensuring that the
-        project meets all specifications and regulations.`,
+    name:"Web Development",
+    icon:<FaLaptopCode/>,
+    description:`Our team crafts stunning, user-friendly websites that captivate and engage your audience. 
+    From seamless functionality to striking design, 
+    we bring your ideas to life, ensuring your online presence stands out in a digital world.`,
   },
   {
-    name:"Design-Build Services",
-    icon:<FaDrawPolygon/>,
-    description:`This service combines both the design and construction phases into a single 
-       contract, streamlining the process and improving communication between the design and
-        construction teams.
+    name:"Apps Development",
+    icon:<MdOutlineAppShortcut/>,
+    description:`Our skilled team designs and builds custom applications that seamlessly blend innovation and functionality.
+     From concept to launch, we transform your vision into powerful solutions that enhance user experience and drive business success.
 
     `,
   },
   {
     name:"Project Management",
-    icon:<GrUserManager/>,
-    description:`Construction companies often provide project management services, which include 
-       planning, coordinating, and overseeing projects to ensure they are completed on time, within 
-       budget, and to the required quality standards.`,
+    icon:<MdOutlineManageAccounts/>,
+    description:`Our company excels in project management, delivering organized and efficient solutions tailored to your business needs. We ensure seamless collaboration, on-time delivery, and transparent communication throughout every stage of the project. From planning to execution, 
+    our dedicated team ensures your goals are met with precision, empowering your business to thrive in a competitive landscape.`,
   },
   {
-    name:"Renovation and Remodeling",
-    icon:<SiHomeassistantcommunitystore/>,
-    description:`Many construction companies specialize in renovation and remodeling services, 
-                which involve updating and improving existing structures. This can range from minor 
-                repairs to major overhauls of residential, commercial, or industrial properties.`,
+    name:"Digital Marketing",
+    icon:<FaBullhorn/>,
+    description:`We create tailored strategies that elevate your online presence and connect you with your audience. 
+    From engaging content to data-driven campaigns, we transform clicks into customers and drive sustainable growth for your business.`,
   },
   {
-    name:"Site Preparation",
-    icon:<AiOutlineFileProtect/>,
-    description:`Before construction begins, companies often handle site preparation tasks such 
-    as land clearing, excavation, grading, and utility installation to ensure the site is ready 
-    for building.`,
+    name:"Data Engineering",
+    icon:<FaDatabase/>,
+    description:`Our expert data engineering services transform raw data into actionable insights, enabling your business to thrive.
+     From seamless data integration to robust pipeline solutions,
+     we empower your organization to make informed decisions and drive innovation.`,
   },
   {
-    name:"Specialty Construction Services",
-    icon:<IoConstructSharp/>,
-    description:`This can include services like roofing, concrete work, steel erection, plumbing, 
-    electrical work, and other specialized trades necessary for specific aspects of the construction project.`,
+    name:"Data Analytics",
+    icon:<FaChartLine/>,
+    description:`Harness the power of insights as we turn complex data into clear, actionable strategies tailored for your success.
+     With cutting-edge analytics and visualizations,
+     we empower you to make informed decisions that drive growth and innovation.`,
   },
 ]
 
 export const teams = [
   {
-    name:"Oluoma James",
-    title:"Technician",
-    profile:member1,
+    name:"Mohana Kumari",
+    title:"Founder",
+    profile:Mohana,
     social:[
       {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
       {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,url:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
+      {name:"Youtube",icon:<FaYoutube/>},
       {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
     ]
   },
   {
-    name:"Mary Brown",
-    title:"Technician",
-    profile:member2,
+    name:"Pavithra",
+    title:"Program Manager",
+    profile:pavithra,
     social:[
       {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
       {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,url:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
+      {name:"Youtube",icon:<FaYoutube/>},
       {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
     ]
   },
   {
-    name:"Lawrence Onu",
-    title:"Technician",
-    profile:member3,
+    name:"Suma",
+    title:"Digital Marketing Manager",
+    profile:Suma,
     social:[
       {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
       {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,url:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
+      {name:"Youtube",icon:<FaYoutube/>},
       {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
     ]
   },
+
   {
-    name:"Joy Eze",
-    title:"Technician",
-    profile:member4,
+    name:"Venkatesh",
+    title:"Director",
+    profile:Venkatesh,
     social:[
       {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
       {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,url:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
+      {name:"Youtube",icon:<FaYoutube/>},
       {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
     ]
   },
+ 
 ]
 
 export const projects = [
   {
-    title:"Residential Development Project",
-    image:building_5,
-    description:`A comprehensive residential development involving the construction of a new 
-        housing community from initial site clearing and preparation to final home construction and landscaping`,
+    title:"",
+      image:``,
+    description:``,
   },
-  {
-    title:"Commercial Office Building",
-    image:building_6,
-    description:`The construction of a multi-story office building including all 
-       architectural and structural design, coordination of specialized trades for 
-       HVAC and electrical systems, and complete project oversight.`,
-  },
-  {
-    title:"Retail Space Renovation",
-    image:building_7,
-    description:`Transforming an outdated retail store into a modern commercial space, 
-    involving interior demolition, new layout design, installation of new fixtures, 
-    and updating utilities.`,
-  },
-  {
-    title:"Industrial Warehouse Construction",
-    image:building_8,
-    description:`Building a large-scale industrial warehouse, including land clearing,
-     foundation work, steel structure erection, and complete construction management 
-     from start to finish.`,
-  },
-  {
-    title:"Historic Building Restoration",
-    image:building_9,
-    description:`Restoring and renovating a historic building to preserve its architectural integrity while updating it to meet modern standards, involving meticulous 
-    craftsmanship and specialized restoration techniques.`,
-  },
-  {
-    title:"Educational Facility Expansion",
-    image:building_10,
-    description:`Expanding an existing school with new classrooms and facilities, encompassing all phases from initial design and site preparation to construction and 
-    final project management to ensure timely completion.`,
-  },
+ 
+  
 ];
 
 
 export const testimonial = [
   {
-    image:profile2,
-    name:'Samuel Eze',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`
+    image:``,
+    name:"Venkatesh",
+    review:`Dolor et eos labore, stet justo sed est sed.Diam sed sed dolor stet amet eirmod eos labore diam`
   },
   {
-    image:profile3,
-    name:'Emmanuel Joseph',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    image:``,
+    name:"Balaji",
+    review:`Dolor et eos labore, stet justo sed est sed.Diam sed sed dolor stet amet eirmod eos labore diam`
   },
   {
-    image:profile4,
-    name:'Gloria Chiwendu',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`
+    image:``,
+    name:"Venkatesh",
+    review:`Dolor et eos labore, stet justo sed est sed.Diam sed sed dolor stet amet eirmod eos labore diam`
   },
   {
-    image:profile5,
-    name:'Precious Stone',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    image:``,
+    name:"Balaji",
+    review:`Dolor et eos labore, stet justo sed est sed.Diam sed sed dolor stet amet eirmod eos labore diam`
   }
 
 ];
@@ -192,59 +161,58 @@ export const testimonial = [
 
 export const blogs = [
   {
-      title:"Sustainable Construction: Building for the Future",
+      title:"How to build a website:",
       image:blog_1,
-      category:"Building",
+      category:"Web Design",
       content:`
-        As the construction industry continues to evolve, the focus on sustainability 
-        has never been more critical. Sustainable construction is not just a trend; 
-        it's a necessity for our planet's future. In this blog post, we'll explore 
-        the principles of sustainable construction, the benefits it offers, and how 
-        our company is leading the way in eco-friendly building practices.
+        Building a website can seem like a daunting task, but in today's digital age, it's easier than ever to create a professional,
+         functional website. 
+        Whether you’re starting a blog, showcasing your portfolio, or creating an online store, 
+        this guide will walk you through the essential steps of building a website.
       `,
-      date:new Date("January 10, 2024"),
+      date:new Date("October 10, 2024"),
       likeCount:34,
-      commentCount:4,
-      tags:["Edu4CommDev","CommGrowthEdu","EducateCommunities"],
+      commentCount:14,
+      tags:[""],
       poster:{
-          name:"Johnson",
+          name:"John Doe",
       },
   },
   {
-      title:"The Importance of Quality Craftsmanship in Construction",
+      title:"A Beginner's Guide to Web Development:",
       image:blog_2,
-      category:"Construction",
+      category:"Web Development",
       content:`
-        Quality craftsmanship is the cornerstone of any successful construction project.
-         It ensures that buildings are not only aesthetically pleasing but also durable 
-         and safe. In this blog post, we'll delve into why quality craftsmanship matters 
-         and how our company upholds the highest standards in every project we undertake.
+       Web development is the backbone of the internet. It involves building, creating,
+        and maintaining websites and web applications. 
+          From static pages to complex web apps, web development encompasses various tools, frameworks, and languages that bring digital 
+            experiences to life..
       `,
-      date:new Date("December 15, 2023"),
-      likeCount:201,
-      commentCount:123,
-      tags:["Skills4Growth","EconSkillImpact","GrowWithSkills"],
+      date:new Date("November 15, 2024"),
+      likeCount:54,
+      commentCount:23,
+      tags:[""],
       poster:{
-          name:"Bissi",
+          name:"John Doe",
       },
   },
   {
-      title:"Innovative Technologies Transforming the Construction Industry",
+      title:"The Power of Email Marketing: A Complete Guide:",
       image:blog_3,
-      category:"Innovations",
+      category:"Email Marketing",
       content:`
-      The construction industry is undergoing a revolution, thanks to the advent of 
-      innovative technologies. These advancements are making construction projects 
-      more efficient, cost-effective, and sustainable. In this blog post, we'll 
-      explore some of the most exciting technologies transforming the way we build 
-      and how our company is leveraging them to deliver superior results.
+            Email marketing remains one of the most effective and affordable tools for businesses to connect with their audience, 
+            nurture relationships, and drive conversions.
+            This guide explores the essentials of email marketing and how you can leverage 
+            it to grow your business.
+
       `,
-      date:new Date("July 20, 2023"),
-      likeCount:198,
-      commentCount:121,
-      tags:["CommEdu","CommunityEngagement","EduCommunity"],
+      date:new Date("September 20, 2024"),
+      likeCount:88,
+      commentCount:54,
+      tags:[""],
       poster:{
-          name:"Abisola",
+          name:"John Doe",
       },
   },
 ];
@@ -253,17 +221,17 @@ export const blogs = [
 export const contacts = [
   {
     name:"Email",
-    value:"mradinuba@gmail.com",
+    value:"info@nexdrift.com",
     icon:<MdOutlineAlternateEmail />,
   },
   {
     name:"Phone Number",
-    value:"+2348149121918",
+    value:"+91 93535 21309",
     icon:<IoCallOutline/>,
   },
   {
     name:"Address",
-    value:"Gwarinpa, Abuja, Nigeria",
+    value:"F4, 596, SGS Park View, Narayana Nagar 3rd Block, Bangalore, KA 560062",
     icon:<IoLocationOutline/>,
   },
 ]
